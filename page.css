@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap&font-effect-neon|font-effect-fire-animation');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: poppins;
+    background-color: #121826;
+}
+h1{
+    font-family: popins;
+    text-align: center;
+    color: rgb(146, 255, 210);
+    text-shadow: 0 0 5px rgb(0, 81, 255),
+                  0 0 25px rgb(0, 81, 255),
+                  0 0 50px rgb(0, 81, 255),
+                  0 0 200px rgb(255, 0, 0); 
+                  background-color: #4d009b;
+   font-size: 60px;
+  border-radius: 20px
+  ;
+}
+.div1{
+background-color:#121826;
+margin-top: 50px;
+height: 150px;
+margin-left: 50px;
+margin-right: 50px;
+border-radius: 50px;
+ }
+p1{
+    color: aqua;
+    text-align: center;
+    margin-left: 550px;
+    background-color: rgb(29, 29, 29);
+}
+.box1{
+    width: 1000px;
+    height: 275px;
+    background-color: #4d009b;
+    padding: 50px;
+    margin-top: 50px;
+    text-align: center;
+    float: center;
+    color: white;
+    border-radius: 20px;
+
+
+}
+.box1:hover{
+   width: 500px;
+    margin-top: 50px;
+    margin-left: 275px;
+    box-shadow: 0 0 50px rgb(255, 255, 255);
+    border-radius: 500px;
+}
+.box1 .flap{
+    background-color: #4d009b;
+color: white;
+}
+.box1 .flap1{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    text-align: left;
+background-color: #4d009b;
+}
+.box1 .flap2{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    text-align: right;
+    background-color: #4d009b;
+}

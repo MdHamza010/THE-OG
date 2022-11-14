@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap&font-effect-neon|font-effect-fire-animation');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: poppins;
+    background-color: #121826;
+}
+h1{
+    font-family: popins;
+    text-align: center;
+    color: rgb(146, 255, 210);
+    text-shadow: 0 0 5px rgb(0, 81, 255),
+                  0 0 25px rgb(0, 81, 255),
+                  0 0 50px rgb(0, 81, 255),
+                  0 0 200px rgb(255, 0, 0); 
+                  background-color: #4d009b;
+   font-size: 60px;
+  border-radius: 20px
+  ;
+}
+.div1{
+background-color:#121826;
+margin-top: 50px;
+height: 150px;
+margin-left: 50px;
+margin-right: 50px;
+border-radius: 50px;
+ }
+p1{
+    color: aqua;
+    text-align: center;
+    margin-left: 550px;
+    background-color: rgb(29, 29, 29);
+}
+
+.container .box1 {
+    position: relative;
+    width: 50%;
+    background-color: #8102FF;
+    margin-top: 85px;
+    margin-left: 50px;
+    margin-left: 100px;
+    width: 300px;
+    height: 300px;
+    animation: forwards;
+    border-radius: 20px;
+  }
+  .container .box1:hover{
+    box-shadow: 0 0 50px rgb(140, 252, 164);
+    animation: forwards;
+   top: -50px;
+  }
+
+  
+  /* Make the image responsive */
+  .container img {
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 650px;
+    width: 80%;
+    height: auto;
+    align-items: center;
+    background-color: gray;
+    border-radius: 10px;
+  
+    margin-bottom: 10px;
+
+
+  }
+  
+  /* Style the button and place it in the middle of the container/image */
+  .container .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: rgba(214, 214, 214, 0);
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .container .btn:hover {
+    background-color: black;
+
+  }
+ .flappybrid{
+  background-color: rgba(240, 255, 255, 0);
+  margin-right: 500px;
+  height: 0px;
+  width: 0px;
+  
+ }
+ .container .img:hover{
+  box-shadow: 0 0 5px rgb(255, 255, 255),
+  0 0 10px rgb(76, 224, 126),
+  0 0 15px rgb(76, 254, 126),
+  0 0 25px rgb(76, 254, 126),
+ 0 0 200px rgb(76, 254, 126);
+ animation: forwards;
+ }
+ 
+.p2{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(255, 255, 255);
+text-align: center;
+margin-top: 500px;
+background-color: #8102FF;
+
+ 
+}
+.p3{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(255, 255, 255);
+
+margin-top: 500px;
+background-color: #8102FF;
+margin-left: 120px;
+bottom: -100px;
+ 
+}
+
+.p1{
+
+  text-decoration-line: underline;
+}
+
+  
+.pp{
+  text-align: center;
+  color:  white;
+  font-size: larger;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #8102FF;
+}
+.mario{
+  position: relative;
+  float: left;
+  bottom: 50%;
+  left: 40%;
+  border-radius: 20px;
+  
+
+}
+.mario .mariobox{
+  position: relative;
+    width: 50%;
+    background-color: #8102FF;
+    
+    width: 300px;
+    height: 300px;
+    animation: forwards;
+    border-radius: 20px;
+}
+.mario .mariobox:hover{
+  box-shadow: 0 0 50px rgb(255, 233, 31);
+    animation: forwards;
+   top: -50px;
+}
+.mario .marioimg {
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-right: 650px;
+  width: 80%;
+  height: auto;
+  align-items: center;
+  background-color: #8102FF;
+  border-radius: 10px;
+
+  margin-bottom: 10px;
+}
+.span1{
+  float: right;
+  margin-bottom: 250%;
+}
+.tetris{
+  position: relative;
+  float: right;
+  bottom: 200%;
+  right: 150%;
+  bottom: 100%;
+  top: 100px;
+  border-radius: 20px;
+  
+
+}
+.tetris .tetrisbox{
+  position: relative;
+    width: 25%;
+    background-color: #8102FF;
+    float: right;
+    padding-left: 100px;
+    width: 300px;
+    height: 300px;
+    animation: forwards;
+    border-radius: 20px;
+    margin-right: -120px;
+}
+.tetris .tetrisbox:hover{
+  box-shadow: 0 0 5px red,
+           0 0 20px yellow,
+           0 0 30px yellowgreen,
+           0 0 50px green,
+           0 0 60px rgb(0, 255, 170),
+           0 0 100px blue,
+           0 0 110px blueviolet,
+           0 0 150px purple;
+
+                 
+                
+    animation: forwards;
+   top: -50px;
+}
+.tetris .marioimg {
+  
+  margin-left: 30px;
+  margin-right: 650px;
+  width: 80%;
+  height: auto;
+  align-items: right;
+  background-color: #8102FF;
+  border-radius: 10px;
+text-align: center;
+  margin-bottom: 10px;
+}
+
+.spansnake{
+  position: relative;
+  float: left;
+  bottom: 250%;
+ 
+}
+
+
+.spansnake .snakebox{
+  position: relative;
+  width: 50%;
+  background-color: #8102FF;
+float: right;
+  width: 300px;
+  height: 300px;
+  animation: forwards;
+  border-radius: 20px;
+  left: 1000px;
+}
+.spansnake.sanakebox:hover{
+  top: -50px;
+}
+.spansnake .snakeimg{
+    margin-top: 20px;
+  margin-left: 30px;
+  margin-right: 650px;
+  width: 80%;
+  height: auto;
+  align-items: center;
+  background-color: #8102FF;
+  border-radius: 10px;
+
+  margin-bottom: 10px;
+}
+.spansnake .snakep{
+  text-align: center;
+  background-color: #8102FF;
+
+}
+.spansnake .pp{
+  background-color: #8102FF;
+  text-align: left;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+.spansnake .pp1 {
+  padding-top: 5px;
+  background-color: #8102FF;
+  text-align: right;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
